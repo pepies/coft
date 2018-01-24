@@ -6,8 +6,9 @@ Things to do before instalation:
 * Replace name and context at:
 ```
 Application/CLIENT_SIDE/Camsoft/src/InputData_example.cs -> Application/CLIENT_SIDE/Camsoft/src/InputData.cs
-```Replace
-*
+```
+* Replace
+
 ```
 Interface/src/config_example.ini -> Interface/src/config.ini
 ```
