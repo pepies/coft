@@ -1,0 +1,1 @@
+"sql_id" úplne vymazené, zo všade, nahradené "id"

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camsoft.Controller" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAMEAIAAKAABAAAAAAAAAAAIAQCAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Camsoft.ACHP" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IsiEgAIOKCKA4FggQDGEgGAiAlEAAgBhQEkAAKCWcjA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.FTP_Buffer_Item" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>FTP_Buffer_item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.FTP_Buffer_list" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAQAAQAAAAAAA=</HashCode>
+      <FileName>FTP_Buffer_list.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.FTP_controller" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAIgAAEAAAAAAAAIAAoAAAAAAgAAAAAAYA=</HashCode>
+      <FileName>FTP_controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Histogram" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAEAAAAAAAAAAAQAABAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Histogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.InputData" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQEACADQBAIAAAAAAAEEABAACgAQAAAAQAAAAA=</HashCode>
+      <FileName>InputData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.LogWatcher" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAIAgAAAAAAAAA=</HashCode>
+      <FileName>LogWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Parse" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABBAAAAAAAAAAAAAAAAAAAAEAAAAAkAAAAAYAAAAA=</HashCode>
+      <FileName>Parse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Program" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Recorder" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Serialize" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAAAAAEA=</HashCode>
+      <FileName>Serialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.SQL_Buffer_Item" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>SQL_Buffer_Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.SQL_Buffer_list" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAQAAQAAAAAAA=</HashCode>
+      <FileName>SQL_Buffer_list.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.SQL_controll" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQL_controll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.SQL_remote_satus" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>SQL_remote_satus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Xml_log" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml_log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAIAABEAAAAQEAAAAAAAAAAAIAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camsoft.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Camsoft.MediaType" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

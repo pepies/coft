@@ -1,0 +1,226 @@
+<header class="navbar-fixed-top md-whiteframe-z1">
+    <md-content>
+        <md-button class="noselect" type="button" data-ng-click="back()" aria-label="FAB">
+            <img src="img/interface/icons/back.svg" />
+        </md-button >
+        <md-datepicker ng-model="day" md-placeholder="Kalendár"></md-datepicker>
+        <md-input-container md-no-float class="right md-block">
+            <input ng-model="filtricek" placeholder="Filter">
+            <!--<md-icon md-svg-src="img/interface/filter.svg"></md-icon>-->
+        </md-input-container>
+    </md-content>
+</header>
+
+
+
+<!-- PRAVY PANEL -->
+
+
+
+<md-sidenav class="md-sidenav-right md-whiteframe-z3 padding-top" md-component-id="right" ng-cloak layout="column">
+	<md-toolbar>
+		<div class="md-toolbar-tools">
+			Čisté merania
+			<span flex></span>
+			<md-button class="md-icon-button" aria-label="Zatvor" ng-click="toggleRight()">
+				<md-icon md-svg-icon="img/ic_close_24px.svg"></md-icon>
+			</md-button>
+		</div>
+	</md-toolbar>
+	<md-content>
+		<md-list>
+            <div ng-show="loadingRight">
+                    <div class="spinner">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                    </div>
+            </div>
+			<md-list-item class="md-2-line" style="padding:0px;" ng-repeat="item in rightData | filter:{rok : (day | date : 'd.M.yyyy'), $:filtricek}">
+				<div class="md-list-item-text" layout="column">
+					<md-subheader ng-if="rightData[$index-1].rok != item.rok">
+						<h2>
+							{{ item.rok }}
+						</h2>
+					</md-subheader>
+					<md-tooltip md-direction="left">id: {{ item.id }}</md-tooltip>
+					<span class="showLog" ng-click="showLog($event, item.id)">
+						<span class="siva">{{ item.cas }}</span>  -
+						<span ng-switch="item.vaha">
+							<span ng-switch-when="2">Každá unikátna</span>
+							<span ng-switch-default>{{ item.vaha | number}} <span class="siva">kg</span></span>
+						</span>
+					</span>
+				</div>
+			</md-list-item>
+		</md-list>
+	</md-content>
+</md-sidenav>
+
+
+<!-- TABULKA -->
+
+
+<div class="warp-table">
+    <div ng-show="loadingData">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+	<div data-ng-repeat="file in files | filter:{d_real_brutto : (day | date :  'yyyy-MM-dd'), $:filtricek} | orderBy : 'zobraz_d_real_brutto'">
+		<md-card>
+			<div>
+				<md-card-content ng-class="{true: 'bg-red'}[file.h_real_brutto == 2]">
+					<md-tabs md-dynamic-height md-border-bottom>
+						<md-tab label="ZÁKLAD">
+							<md-content class="md-padding">
+								<div>
+									<div ng-show="file.h_real_tara">
+											<div class="log_col">
+												<img ng-click="showLog($event, file.id_real_tara)"
+												ng-src="../{{id}}/foto/{{file.id_real_tara}}.jpg"
+												err-src="img/no_image.svg"
+												id="{{file.id_real_tara}}"
+												class="log_image" />
+												<md-tooltip md-direction="bottom">
+													id: {{file.id_real_tara}}
+												</md-tooltip>
+											</div>
+											<div class="log_col">
+												<span class="popis">ČAS</span>
+												<div>{{file.zobraz_d_real_tara}}</div>
+											</div>
+											<div class="log_col" ng-switch="{{file.h_real_tara}}">
+												<span class="popis">reálna</span>
+												<div ng-switch-when="1"> <span class="label label-danger">Vt_log chyba</span> </div>
+												<div ng-switch-when="2"> <span class="label label-danger">Každá unikátna</span> </div>
+												<div ng-switch-when="3"> <span class="label label-danger">Ešte neprijatá</span> </div>
+												<div ng-switch-default>
+													<md-tooltip md-direction="bottom">
+														{{file.d_real_brutto}}
+													</md-tooltip>
+													{{file.h_real_tara | number }} <span class="siva">kg</span>
+												</div>
+											</div>
+											<div class="log_col">
+												<span class="popis">SAP</span>
+												<md-tooltip md-direction="bottom">
+													{{file.d_tara}}
+												</md-tooltip>
+												<div> {{file.h_tara | number }} <span class="siva">kg</span></div>
+											</div>
+											<span flex></span>
+											<div class="log_col left_border">
+												<span class="popis">Rozdiel v netto</span>
+												<div>
+													<md-tooltip md-direction="left">
+													{{file.h_real_brutto | number }} - {{file.h_real_tara}} - {{file.h_netto}}
+													</md-tooltip>
+													{{file.h_real_brutto - file.h_real_tara - file.h_netto}}
+													<span class="siva"> kg</span>
+												</div>
+											</div>
+										</div>
+
+									<md-divider ng-show="file.h_real_tara"></md-divider>
+									
+									<div>
+										<div class="log_col">
+												<img ng-click="showLog($event, file.id_real_brutto)"
+												ng-src="../{{id}}/foto/{{file.id_real_brutto}}.jpg"
+												err-src="img/no_image.svg"
+												id="{{file.id_real_brutto}}"
+												class="log_image" />
+												<md-tooltip md-direction="bottom">
+													id: {{file.id_real_brutto}}
+												</md-tooltip>
+											</div>
+											<div class="log_col">
+												<span class="popis">ČAS</span>
+												<div>{{file.zobraz_d_real_brutto}}</div>
+											</div>
+											<div class="log_col" ng-switch="{{file.h_real_brutto}}">
+												<span class="popis">REÁLNA</span>
+												<div ng-switch-when="1"> <span class="label label-danger">Vt_log chyba</span> </div>
+												<div ng-switch-when="2"> <span class="label label-danger">Každá unikátna</span> </div>
+												<div ng-switch-when="3"> <span class="label label-danger">Ešte neprijatá</span> </div>
+												<div ng-switch-default>
+													<md-tooltip md-direction="bottom">
+														{{file.d_real_brutto}}
+													</md-tooltip>
+													{{file.h_real_brutto | number }} <span class="siva">kg</span>
+												</div>
+											</div>
+											<div class="log_col">
+												<span class="popis">SAP</span>
+												<md-tooltip md-direction="bottom">
+													{{file.d_brutto}}
+												</md-tooltip>
+												<div> {{file.h_brutto | number }} <span class="siva">kg</span></div>
+											</div>
+									</div>
+								</div>
+							</md-content>
+						</md-tab>
+						<md-tab label="PODPROBNOSTI">
+							<md-content class="md-padding">
+								<div>
+									<div class="log_col">
+										<span class="popis">PV</span>
+										<div> {{file.PV}} </div>
+									</div>
+									<div class="log_col">
+										<span class="popis">Auto</span>
+										<div> {{file.spz}} </div>
+										<div> {{file.vodic}} </div>
+									</div>
+									<div class="log_col">
+										<span class="popis">OPERATOR</span>
+										<div> {{file.vazil}} </div>
+									</div>
+									<md-divider></md-divider>
+									<div class="log_col">
+										<span class="popis">material nazov</span>
+										<div> {{file.material_nazov}} </div>
+										<div> {{file.material_cislo}} </div>
+									</div>
+									<div class="log_col">
+										<span class="popis">norma</span>
+										<div> {{file.norma}} </div>
+									</div>
+
+									<div class="log_col">
+										<span class="popis">PARTNER</span>
+										<div> {{file.partner}} </div>
+										<div>{{file.partner_id}}</div>
+									</div>
+									<div class="log_col">
+										<span class="popis">POZNÁMKA</span>
+										<div> {{file.poznamka}} </div>
+									</div>
+								</div>
+							</md-content>
+						</md-tab>
+					</md-tabs>
+				</md-card-content>
+			</div>
+		</md-card>
+	</div>
+</div>
+
+<!--
+<div class="bottom-sum md-whiteframe-z1">
+	<div><span class="popis">Reálne brutto</span> {{sumvar | sumOfValue:'h_real_brutto' | number }}</div>
+	<div><span class="popis">SAP brutto</span> {{sumvar | sumOfValue:'h_brutto' | number }}</div>
+	<div>|</div>
+	<div><span class="popis">Reálne TARA</span> {{sumvar | sumOfValue:'h_real_tara' | number }}</div>
+	<div><span class="popis">sap tara</span> {{sumvar | sumOfValue:'h_tara' | number }}</div>
+</div>-->
+	<!--<md-button ng-controller="BottomSheetExample" ng-click="showGridBottomSheet($event)" class="md-fab bottom_sheet_button" aria-label="FAB">
+		<span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+	</md-button>
+-->
+<md-button ng-click="toggleRight()"
+class="md-fab right_sheet_button" aria-label="FAB">
+<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+</md-button>

@@ -1,0 +1,19 @@
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\Interop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\AxInterop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\Camsoft.csproj.ResolveComReference.cache
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\Camsoft.ACHP.resources
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\Camsoft.Properties.Resources.resources
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\Camsoft.csproj.GenerateResource.Cache
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\Interop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\AxInterop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\ACHP - Csft.exe.manifest
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\ACHP - Csft.application
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\ACHP - Csft.exe
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\ACHP - Csft.pdb
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\ACHP - Csft.exe.manifest
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\ACHP - Csft.application
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\ACHP - Csft.exe
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\ACHP - Csft.pdb
+C:\Users\peter\Documents\gll\Camsoft\obj\x86\Release\Camsoft.csprojResolveAssemblyReference.cache
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\ACHP - Csft.exe.config
+C:\Users\peter\Documents\gll\Camsoft\bin\x86\Release\MySql.Data.dll

@@ -1,0 +1,34 @@
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\Interop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\AxInterop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\Camsoft.csproj.ResolveComReference.cache
+C:\Users\peter\Documents\gll\Camsoft\bin\Release\ACHP - csft.exe.manifest
+C:\Users\peter\Documents\gll\Camsoft\bin\Release\ACHP - csft.application
+C:\Users\peter\Documents\gll\Camsoft\bin\Release\ACHP - csft.exe
+C:\Users\peter\Documents\gll\Camsoft\bin\Release\ACHP - csft.pdb
+C:\Users\peter\Documents\gll\Camsoft\bin\Release\Interop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\bin\Release\AxInterop.AXISMEDIACONTROLLib.dll
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\Camsoft.ACHP.resources
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\Camsoft.Properties.Resources.resources
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\Camsoft.csproj.GenerateResource.Cache
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\ACHP - csft.exe.manifest
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\ACHP - csft.application
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\ACHP - csft.exe
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\ACHP - csft.pdb
+C:\Users\peter\Documents\gll\Camsoft\obj\Release\Camsoft.csprojResolveAssemblyReference.cache
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\ACHP - Csft.exe.config
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\Interop.AXISMEDIACONTROLLib.dll
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\AxInterop.AXISMEDIACONTROLLib.dll
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\Camsoft.csproj.ResolveComReference.cache
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\ACHP - Csft.exe
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\ACHP - Csft.pdb
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\ACHP - Csft.exe
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\ACHP - Csft.pdb
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\MySql.Data.dll
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\NReco.VideoConverter.dll
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\NReco.VideoConverter.xml
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\Interop.AXISMEDIACONTROLLib.dll
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\bin\Release\AxInterop.AXISMEDIACONTROLLib.dll
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\Camsoft.csprojResolveAssemblyReference.cache
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\Camsoft.Achp.resources
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\Camsoft.Properties.Resources.resources
+\\Vboxsvr\root\home\pepies\Documents\NEW\CLIENT_SIDE\Camsoft\obj\Release\Camsoft.csproj.GenerateResource.Cache

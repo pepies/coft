@@ -1,0 +1,30 @@
+{
+  "name": "coft",
+  "version": "0.0.0",
+  "description": "measuring program",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "bower": "^1.6.8",
+    "jshint": "^2.7.0"
+  },
+  "devDependencies": {
+    "connect-modrewrite": "^0.8.2",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-php": "^1.5.1",
+    "grunt-remove": "^0.1.0",
+    "grunt-sass": "^1.1.0",
+    "grunt-wiredep": "^2.0.0",
+    "load-grunt-tasks": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coft"
+  ],
+  "author": "Peter Brecska",
+  "license": "ISC"
+}
